@@ -1,4 +1,4 @@
-# ⌨️  Keyboard
+# ⌨️  Personalize-Keyboard
 
 Custom Android keyboard with:
 - 🇧🇩 Full Bangla keyboard
@@ -19,7 +19,7 @@ Supports **Android 5.1+** (API 22+)
 ### A) Setup GitHub (one time)
 1. Go to **github.com** → Sign up (free)
 2. Click **+** → **New repository**
-3. Name it: `NillKeyboard`
+3. Name it: `Personalize-Keyboard`
 4. Make it **Public**
 5. Click **Create repository**
 
