@@ -1,0 +1,3 @@
+-keep class com.nill.keyboard.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⌨️ Nill Keyboard"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1C1C1E"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="বাংলা • English • Banglish AI • Emoji"
+            android:textSize="14sp"
+            android:textColor="#888888"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📋 Setup Guide"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1️⃣  Click &#39;Enable Keyboard&#39; below\n2️⃣  Find &#39;Nill Keyboard&#39; and turn it ON\n3️⃣  Click &#39;Select This Keyboard&#39;\n4️⃣  Choose &#39;Nill Keyboard&#39;\n5️⃣  Go to Settings → Add your Groq API key\n\n🔑 Get FREE Groq API key at: console.groq.com\n\n🤖 Features:\n• English QWERTY with light/dark theme\n• Full Bangla keyboard (বাংলা)\n• Banglish → Bangla AI (powered by Groq)\n• Voice typing in English + Bangla (Groq Whisper)\n• 200+ emoji picker\n• Clipboard history\n• Parental control keylogger (password: in Settings)"
+            android:textSize="14sp"
+            android:lineSpacingMultiplier="1.6"
+            android:textColor="#3A3A3C"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnEnable"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Step 1: Enable Keyboard"
+            android:backgroundTint="#007AFF"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Step 2: Select This Keyboard"
+            android:backgroundTint="#34C759"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="⚙️ Settings (API Key, Theme, Logs)"
+            android:backgroundTint="#FF9500"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+</ScrollView>
